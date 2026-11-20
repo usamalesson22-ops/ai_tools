@@ -1,7 +1,7 @@
 // Mindora AI - Global Verified Evolving AI Tools Dataset
 // Every entry links directly to the real, live official web application.
 // Automatically researched & verified via Mindora AI Pipeline (9:00 AM & 6:00 PM PKT)
-// Total Verified Live Apps: 50
+// Total Verified Live Apps: 51
 
 let AI_TOOLS_DATA = [
   {
@@ -1625,6 +1625,38 @@ let AI_TOOLS_DATA = [
       "Automated git commit curation and pull request generation"
     ],
     "website": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code",
+    "trending": true
+  },
+  {
+    "id": "fish-audio",
+    "name": "Fish Audio",
+    "category": "voice",
+    "provider": "Fish Audio",
+    "badge": "Open Voice AI",
+    "badgeType": "voice",
+    "tagline": "Ultra-low-latency, open-weights multilingual audio foundation model with expressive voice cloning.",
+    "description": "Fish Audio provides leading multilingual speech synthesis and lightning-fast voice conversion with few-shot cloning from just a few seconds of audio.",
+    "releaseYear": "2024-2026",
+    "contextWindow": "Multilingual Audio",
+    "openSource": true,
+    "pricing": "Free Tier / Pro",
+    "modalities": [
+      "Voice Synthesis",
+      "Voice Cloning",
+      "Audio API"
+    ],
+    "metrics": {
+      "reasoning": 89,
+      "speed": 96,
+      "costEfficiency": 95,
+      "coding": 72
+    },
+    "useCases": [
+      "Cross-lingual expressive voice synthesis from text",
+      "High-fidelity few-shot voice cloning from 10-second samples",
+      "Streaming real-time conversational voice agent infrastructure"
+    ],
+    "website": "https://fish.audio",
     "trending": true
   }
 ];
