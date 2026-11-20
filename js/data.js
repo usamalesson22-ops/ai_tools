@@ -1,7 +1,7 @@
 // Mindora AI - Global Verified Evolving AI Tools Dataset
 // Every entry links directly to the real, live official web application.
 // Automatically researched & verified via Mindora AI Pipeline (9:00 AM & 6:00 PM PKT)
-// Total Verified Live Apps: 46
+// Total Verified Live Apps: 50
 
 let AI_TOOLS_DATA = [
   {
@@ -1496,6 +1496,135 @@ let AI_TOOLS_DATA = [
       "Accelerating academic comprehension for undergraduate students"
     ],
     "website": "https://www.explainpaper.com",
+    "trending": true
+  },
+  {
+    "id": "cohere-coral",
+    "name": "Cohere Command",
+    "category": "reasoning",
+    "provider": "Cohere",
+    "badge": "Enterprise RAG",
+    "badgeType": "frontier",
+    "tagline": "Enterprise-grade conversational AI model optimized for grounded retrieval, multilingual business tasks, and citations.",
+    "description": "Cohere Command R+ delivers high-efficiency retrieval-augmented generation (RAG) with verifiable citations and enterprise document grounding across 10+ languages.",
+    "releaseYear": "2024-2026",
+    "contextWindow": "128k Tokens",
+    "openSource": false,
+    "pricing": "Free Trial / Enterprise Pay-per-Token",
+    "modalities": [
+      "Text",
+      "Search RAG",
+      "Citations"
+    ],
+    "metrics": {
+      "reasoning": 93,
+      "speed": 92,
+      "costEfficiency": 91,
+      "coding": 82
+    },
+    "useCases": [
+      "Enterprise retrieval-augmented generation and synthesis",
+      "Accurate citation extraction from internal databases",
+      "Multilingual corporate communication and analysis"
+    ],
+    "website": "https://cohere.com",
+    "trending": true
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "category": "opensource",
+    "provider": "Together AI",
+    "badge": "Fast Inference",
+    "badgeType": "open",
+    "tagline": "The fastest cloud inference platform for open-source AI models including Llama 3, DeepSeek, and FLUX.",
+    "description": "Together AI provides ultra-low latency serverless endpoints for open-weight foundation models and image generators, delivering speeds up to 150+ tokens per second.",
+    "releaseYear": "2023-2026",
+    "contextWindow": "Model Dependant / Up to 128k",
+    "openSource": true,
+    "pricing": "Pay-per-Token / Free Trial",
+    "modalities": [
+      "Open Models",
+      "Fast API",
+      "Fine-tuning"
+    ],
+    "metrics": {
+      "reasoning": 92,
+      "speed": 98,
+      "costEfficiency": 96,
+      "coding": 90
+    },
+    "useCases": [
+      "Running ultra-fast inference on open models like Llama and DeepSeek",
+      "Fine-tuning custom open-weights models on dedicated clusters",
+      "Building production AI features with high throughput APIs"
+    ],
+    "website": "https://www.together.ai",
+    "trending": true
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "category": "opensource",
+    "provider": "OpenRouter",
+    "badge": "Unified LLM API",
+    "badgeType": "open",
+    "tagline": "A unified interface and API routing to hundreds of frontier and open-source models at competitive rates.",
+    "description": "OpenRouter provides access to 200+ AI models from OpenAI, Anthropic, Google, Meta, and open-source labs through a single OpenAI-compatible API key with live pricing rankings.",
+    "releaseYear": "2023-2026",
+    "contextWindow": "Up to 2M Tokens",
+    "openSource": false,
+    "pricing": "Pay-per-Token / Many Free Models",
+    "modalities": [
+      "API Gateway",
+      "Multi-Model",
+      "Prompt Playground"
+    ],
+    "metrics": {
+      "reasoning": 95,
+      "speed": 94,
+      "costEfficiency": 98,
+      "coding": 94
+    },
+    "useCases": [
+      "Routing queries dynamically to the cheapest or fastest available model",
+      "Experimenting with hundreds of open and frontier LLMs in one place",
+      "Eliminating vendor lock-in for AI applications"
+    ],
+    "website": "https://openrouter.ai",
+    "trending": true
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "category": "coding",
+    "provider": "Anthropic",
+    "badge": "Agentic Terminal",
+    "badgeType": "agentic",
+    "tagline": "Anthropic's agentic command-line tool that navigates codebases, edits files, and runs terminal commands.",
+    "description": "Claude Code lives directly in your terminal, understanding large repositories, resolving complex git issues, running test suites, and creating multi-file PRs with frontier reasoning.",
+    "releaseYear": "2025-2026",
+    "contextWindow": "200k Tokens / Multi-File",
+    "openSource": false,
+    "pricing": "Pay-per-Token / Anthropic API",
+    "modalities": [
+      "Terminal",
+      "Code",
+      "Git",
+      "Tests"
+    ],
+    "metrics": {
+      "reasoning": 98,
+      "speed": 91,
+      "costEfficiency": 88,
+      "coding": 98
+    },
+    "useCases": [
+      "Terminal-driven multi-file refactoring and bug fixing",
+      "Navigating and understanding unfamiliar large software codebases",
+      "Automated git commit curation and pull request generation"
+    ],
+    "website": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code",
     "trending": true
   }
 ];
